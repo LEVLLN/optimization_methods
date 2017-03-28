@@ -57,9 +57,13 @@ public class UserMain {
                 finalAnswer = answer;
             }
 
-            System.out.println("Мы получили совпадений " + count + " из " + maxCount + " на фирме " + answer.getCompanyName() + " с коэфициентом: " + currentCoef);
+            System.out.println("Мы получили совпадений " + count + " из " + maxCount
+                    + " на фирме " + answer.getCompanyName()
+                    + " по профессии: " + answer.getProfession()
+                    + " с коэфициентом: " + currentCoef);
         }
-        System.out.println("\n>>>>>Наиболее благоприятный выбор для Вас: " + finalAnswer.getCompanyName() + " профессия: " + finalAnswer.getProfession() + '\n');
+        System.out.println("\n>>>>>Наиболее благоприятный выбор для Вас: " + finalAnswer.getCompanyName()
+                + " профессия: " + finalAnswer.getProfession() + '\n');
 
         System.out.println("Если Вы не нашли подходящую вакансию, Вы можете помочь нам расширить систему, добавив свой вариант");
         System.out.println("1) Добавить свой вариант");
