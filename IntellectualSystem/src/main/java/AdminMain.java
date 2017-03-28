@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 public class AdminMain {
     public static void main(String[] args) throws IOException {
-        extendQuestion();
+        extendQuestion(); //Усовершенствовать вопрос
+       // addQuestion(); //Добавить новый вопрос
 
     }
 
